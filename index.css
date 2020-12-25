@@ -140,5 +140,26 @@ input{
 	align-items: center;
 	align-content: center;
 }
-
+footer{
+	background-color: aqua;
+	color: black;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer *{
+	background-color: aqua;
+	color: black;
+}
+.fun-inc{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.legal{
+	display: flex;
+	text-align: center;
+}
 
