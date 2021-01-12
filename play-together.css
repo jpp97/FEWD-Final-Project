@@ -1,5 +1,5 @@
 * {
-    background-color: darkgreen;
+    background-color:#857C8D;
     color: antiquewhite;
 }
 body{border: 6px black solid;}
@@ -78,24 +78,28 @@ body{border: 6px black solid;}
 }
 .friend-list h1{
 	font-size: 3em;
+	color: #023C40;
 }
 .friend-card{
 	padding: 5vh 2vw 5vh 2vw;
-	background-color: grey;
+	background-color: #60935D;
 	display: flex;
 	flex-direction: column;
 }
 .friend-card *{
-	background-color: grey;
+	background-color: #60935D;
+}
+.friend-card p{
+	color: #ECC8AE;
 }
 .online-friends{
 	display: flex;
 }
 .online-friends a{
 	text-decoration: none;
-	color: aqua;
+	color: #B4E1FF;
 	font-size: 1.5em;
-	background-color: grey;
+	background-color: #60935D;
 	padding: 1vh;
 }
 .online-friends a:hover{
@@ -107,9 +111,9 @@ body{border: 6px black solid;}
 }
 .offline-friends a{
 	text-decoration: none;
-	color: aqua;
+	color: #B4E1FF;
 	font-size: 1.5em;
-	background-color: grey;
+	background-color: #60935D;
 	padding: 1vh;
 }
 .offline-friends a:hover{

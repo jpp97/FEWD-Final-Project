@@ -1,5 +1,5 @@
 * {
-    background-color: darkgreen;
+    background-color:#857C8D;
     color: antiquewhite;
 }
 body{border: 6px black solid;}
@@ -76,9 +76,11 @@ body{border: 6px black solid;}
 }
 .heading h1{
 	font-size: 4em;
+	color: #023C40;
 }
 .heading p{
 	font-size: 2em;
+	color: #023C40;
 }
 .flex-container{
 	margin: 5vh 10vw 5vh 10vw;
@@ -100,7 +102,7 @@ body{border: 6px black solid;}
 		align-items: center;
 }
 .card-ex *{
-	color: aqua;
+	color: #B4E1FF;
 }
 .card{
 	border: 1px solid black;
@@ -115,7 +117,7 @@ body{border: 6px black solid;}
 .rank{
 	display: inline;
 	font-size: 1.5em;
-	color: aqua;
+	color: #B4E1FF;
 }
 .name{
 	display: inline;
@@ -124,17 +126,20 @@ body{border: 6px black solid;}
 .points{
 	display: inline;
 	font-size: 1.5em;
-	color: aqua;
+	color: #B4E1FF;
 }
 .card img{
 	height: 60px;
 	width: 60px;
 	display: inline;
 	align-self: center;
-	background-color: aqua;
+	background-color: antiquewhite;
 	border-radius: 50%;
 	overflow: hidden;
 }
 .profile{
 	display: flex;
+}
+.profile *{
+	color: #ECC8AE;
 }

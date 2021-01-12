@@ -1,5 +1,7 @@
+
+
 * {
-    background-color:#857C8D;
+    background-color: darkgreen;
     color: antiquewhite;
 }
 body{border: 6px black solid;}
@@ -71,74 +73,72 @@ body{border: 6px black solid;}
 	background-color: antiquewhite;
 	color: black;
 }											/*end of nav/dropdown */
+.head{text-align: center; color: black;font-family: 'Courier New', Courier, monospace; font-size: 36pt;}
+#aboutli{font-size: 28pt;}
+.aboutp{font-size: 24pt;text-align: center;}
 
-						/* Picture Layout */
-
-						.name{ font-size: 36pt;
-							text-align: center;}				
-
-.grid-container{
-	display:grid; 
-	grid-template-columns: 1fr 1fr 1fr ;
+.grid-container {
+	display: grid;
+margin-top: 5%;
+margin-right: 2px;
+margin-left: 2px;
+	grid-template-columns:1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr ;
+	gap: 0fr 0fr;
+	grid-template-areas:
+	  ". . "
+	  ". . ";
+  }
+  													/* Testimonial Cards */
+  section {
 	position: relative;
-	gap: 2%;
-	top: 50%;
-	left:center;
-	
-	
-}
-.wording{text-align: center;
-font-size: 22pt;}
-
-.head{ font-size: 26pt;
-text-align: center;}
-.aboutp{ font-size: 18pt;
-text-align: center;}
-
-
-.info{ font-size: 30pt;
-color: black;
-text-align: center;
-border: 2px black solid	;
-}
-
-.cardinfo{font-size: 30pt;
-	color: black;
-	text-align: center;
-	border: 2px black solid;}
-
-
-section
-{position: relative;
-	top: 50%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
-	justify-content: center;}
+	justify-content: center;
 
+}
 
-.testimonial{width: 350px;
-display: inline-block;
-margin:0 20px;
-top: 50%;
-transition: .5s;}
-
+  .testimonial{
+	   width: 350px;
+	display:inline-block;
+	margin: 0 20px;
+	transition: 10s 20px rgba(0, 0, 0, 0.7);
+}
+  
 .testimonial:hover{
-	transform: translateY(-20px);
-box-shadow: 0 5px 20px rgba (0, 0, 0, 0.7);}
+	transform: translateY(-30px);
+	box-shadow: 0 3px 10px;
+}
+.testimonial .card {
+position: relative;
+overflow: hidden;
+width: 350px;
+margin: 0, auto;
+background-color: white;
+padding: 20px;
+box-sizing: border-box;
+text-align: center;
 
-.testimonial .card{position: relative;
-	overflow: hidden;
+}
+.developer{
 	width: 350px;
-	margin: 0 auto;
-	background: gold;
-	padding: 20px;
-	box-sizing: border-box;
-
-
+ display:inline-block;
+ margin: 0 20px;
+ transition: 10s 20px rgba(0, 0, 0, 0.7);
 }
 
-
-
+.developer:hover{
+	transform: translateY(-30px);
+	box-shadow: 0 3px 10px;
 }
+.develoeper .card {
+position: relative;
+overflow: hidden;
+width: 350px;
+margin: 0, auto;
+background-color: white;
+padding: 20px;
+box-sizing: border-box;
+text-align: center;

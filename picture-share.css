@@ -1,5 +1,5 @@
 * {
-    background-color: darkgreen;
+    background-color:#857C8D;
     color: antiquewhite;
 }
 body{border: 6px black solid;}
@@ -77,36 +77,43 @@ body{border: 6px black solid;}
 	grid-template-rows: 1fr 1fr 1fr 1fr ;
 	position: relative;
 	gap: 1%;
-	/* top: 20%; */
+	top: 20%;
 	left:center;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 20px;
+
+
 
 
 }
-
-.grid-container img{width: 100%;}
-.info{ font-size: 30pt;
-	color: black;
-	text-align: center;
-	border: 2px black solid	;
-	}
-	.grid-container .aboutp{width: 100%;}
-
 .abouts{ font-size: 38;
-color: black;
+color:#023C40;
 text-align: center;
 text-emphasis: bold;}
 
 
 
-button{ font-size: 20pt;
-align-items: center;
-border-radius: 5px black solid;
+.download-button {
+	padding: 2vh 5vw;
+	background-color: black;
+	color: antiquewhite;
+	font-size: 1em;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+    margin: 1vh 2vw 1vh 1vw;
 }
+.download-button:hover {
+	background-color: antiquewhite;
+	color: black;
+}
+
+
+
+
+
 .aboutb{ font-size: 30pt;
-color: white;
+color: #023C40;
 border: 6px white dotted;
 text-align: center;
 margin-left: 20px;
