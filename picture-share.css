@@ -112,3 +112,25 @@ text-align: center;
 margin-left: 20px;
 margin-right: 20px;
 }
+footer{
+	padding-bottom: 20px;
+	border: 1px black;
+	color: black;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer *{
+	color: black;
+}
+.fun-inc{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.legal{
+	display: flex;
+	text-align: center;
+}
