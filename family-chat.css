@@ -1,5 +1,5 @@
 * {
-    background-color: darkgreen;
+    background-color:#857C8D;
     color: antiquewhite;
 }
 body{border: 6px black solid;}
@@ -76,9 +76,11 @@ body{border: 6px black solid;}
 }
 .heading h1{
 	font-size: 4em;
+	color: #023C40;
 }
 .heading p{
 	font-size: 2em;
+	color: #023C40;
 }
 .chatbox{							/*group chat stuff*/
 	border: 5px solid black;
@@ -114,7 +116,7 @@ body{border: 6px black solid;}
 	width: 100%;
 	padding: 10px;
 	margin: 5px 10px 0;
-	background-color: cyan;
+	background-color: #B4E1FF;
 	border-radius: 10px;
 	color: black;
 	font-size: 1.5em;
@@ -123,7 +125,7 @@ body{border: 6px black solid;}
 	width: 80%;
 	padding: 10px;
 	margin: 5px 10px 0;
-	background-color: lawngreen;
+	background-color: #60935D;
 	border-radius: 10px;
 	color: black;
 	font-size: 1.5em;

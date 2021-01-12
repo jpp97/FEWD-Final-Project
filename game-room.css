@@ -1,13 +1,10 @@
 * {
-    background-color: darkgreen;
+    background-color:#857C8D;
     color: antiquewhite;
 }
 body{
     border: 6px black solid;
     text-align: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 5vh;
 }
 .nav-box {                                            /* Nav */
@@ -82,6 +79,14 @@ body{
     margin: 1vh 2vw 5vh 2vw;
     /* so the text doesn't squish against the sides of the viewport */
 }
+.gameroom-heading{
+    color: #023C40;
+    font-size: 3em;
+}
+.gameroom-desc{
+    color: #023C40;
+    font-size: 1.5em;
+}
 .grid-container{                                     /*grid stuff for the game room lkinks*/
     margin: 5vh 10vw 5vh 10vw;
     min-height: 50vh;
@@ -98,14 +103,17 @@ body{
     grid-row-end: 3;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding-right: 5vw;
 }
 .library{
     text-decoration: none;
-    font-size: 2em;
-    color: blueviolet;
+    font-size: 3em;
+    color:#B4E1FF;
     text-align: center;
+}
+.library-p{
+    font-size: 2em;
+    color: #ECC8AE;
 }
 .library:hover{
     color: black;
@@ -117,14 +125,17 @@ body{
     grid-row-end: 3;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding-right: 5vw;
 }
 .multiplayer{
     text-decoration: none;
-    font-size: 2em;
-    color: blueviolet;
+    font-size: 3em;
+    color:#B4E1FF;
     text-align: center;
+}
+.multiplayer-p{
+    font-size:2em;
+    color: #ECC8AE;
 }
 .multiplayer:hover{
     color: black;
@@ -136,20 +147,23 @@ body{
     grid-row-end: 3;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding-right: 5vw;
 }
 .leaderboard{
     text-decoration: none;
-    font-size: 2em;
-    color: blueviolet;
+    font-size: 3em;
+    color:#B4E1FF;
     text-align: center;
+}
+.leaderboard-p{
+    font-size: 2em;
+    color: #ECC8AE;
 }
 .leaderboard:hover{
     color: black;
 }                                       /* end of game room links*/
 @media (max-width: 1000px){             /*makes the grid responsive*/
-.grid-container{                                        
+    .grid-container{                                        
     margin: 5vh 5vw 5vh 5vw;
     min-height: 50vh;
     width: 80%;

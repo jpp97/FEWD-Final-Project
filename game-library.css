@@ -1,5 +1,5 @@
 * {
-    background-color: darkgreen;
+    background-color:#857C8D;
     color: antiquewhite;
 }
 body{border: 6px black solid;}
@@ -73,6 +73,7 @@ body{border: 6px black solid;}
 }											/*end of nav/dropdown */
 .heading{
 	text-align: center;
+	color: #023C40 ;
 }
 .library-container {
 	margin: 5vh 10vw 5vh 10vw;
@@ -89,7 +90,7 @@ body{border: 6px black solid;}
 }
 .library-item {
 	text-align: center;
-	background-color: #57886c;
+	background-color: #60935D;
 	box-shadow: black;
 	/* width: 100%;
 	height: 100%; */
@@ -103,12 +104,13 @@ body{border: 6px black solid;}
 }
 .library-item h1 {
 	font-size: 2em;
-	background-color: #57886c;
-	color: #f8c7cc;
+	background-color: #60935D;
+	color: #B4E1FF;
 }
 .library-item p {
 	font-size: 1.5em;
-	background-color: #57886c;
+	background-color: #60935D;
+	color: #ECC8AE;
 }
 @media (max-width: 800px){
 	.library-container {
