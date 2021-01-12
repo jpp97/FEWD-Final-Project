@@ -87,7 +87,10 @@ body{border: 6px black solid;}
 	left:center;
 	
 	
+	
 }
+
+.grid-container img{width: 100%;}
 .wording{text-align: center;
 font-size: 22pt;}
 
@@ -135,10 +138,6 @@ box-shadow: 0 5px 20px rgba (0, 0, 0, 0.7);}
 	background: gold;
 	padding: 20px;
 	box-sizing: border-box;
-
-
-}
-
 
 
 }
